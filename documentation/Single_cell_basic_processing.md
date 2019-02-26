@@ -1,4 +1,4 @@
-# Pipeline for processing data from 10X genomics [Single_cell_basic_processing_rev4.nf](../../nextflow/Single_cell_basic_processing_rev4.nf)
+# Pipeline for processing data from 10X genomics [Single_cell_basic_processing_rev4.nf](../nextflow/Single_cell_basic_processing_rev4.nf)
 This pipeline performs basic analysis of data generated using the 10X genomics protocol.  
 It produces gene x cell count matrices using the [Cell Ranger](https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cell-ranger) software. 
 In addition an RNA velocity analysis is run using [velocyto](velocyto.org/velocyto.py/index.html) and ready to use [Scanpy](https://scanpy.readthedocs.io) AnnData objects are created.
